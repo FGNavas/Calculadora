@@ -1,0 +1,20 @@
+.red-background-button {
+    -fx-background-color: lightcoral;
+    -fx-border-color: red; /* Color del borde azul */
+    -fx-border-width: 2px; /* Ancho del borde */
+    -fx-border-radius: 5px;
+}
+.blue-background-button {
+    -fx-background-color: lightblue;
+
+}
+.red-background-button:pressed {
+    -fx-background-color: darkred; /* Color de fondo al presionar el botón */
+}
+
+.blue-background-button:pressed {
+    -fx-background-color: royalblue; /* Color de fondo al presionar el botón */
+}
+#textField {
+    -fx-background-color: #888888; /* fondo pantalla de los numeros */
+}
