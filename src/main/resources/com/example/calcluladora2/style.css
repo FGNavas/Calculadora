@@ -1,11 +1,23 @@
 .red-background-button {
+
     -fx-background-color: lightcoral;
     -fx-border-color: red; /* Color del borde azul */
+
+    -fx-background-color: #F93B37;
+    -fx-border-color: #B63734; /* Color del borde rojo */
+
     -fx-border-width: 2px; /* Ancho del borde */
     -fx-border-radius: 5px;
 }
 .blue-background-button {
+
     -fx-background-color: lightblue;
+
+    -fx-background-color: #37AFF9;
+    -fx-border-color: #59A5D4; /* Color del borde rojo */
+    -fx-border-width: 2px; /* Ancho del borde */
+    -fx-border-radius: 5px;
+
 
 }
 .red-background-button:pressed {
@@ -16,5 +28,9 @@
     -fx-background-color: royalblue; /* Color de fondo al presionar el botón */
 }
 #textField {
+    -fx-background-color: #888888; /* fondo pantalla de los numeros */
+}
+
+#mostrarOperaciones{
     -fx-background-color: #888888; /* fondo pantalla de los numeros */
 }
